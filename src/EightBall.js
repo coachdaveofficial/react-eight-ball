@@ -23,7 +23,7 @@ const EightBall = ({answers}) => {
         
     }
     return (
-        <div className='eight-ball' onClick={handleClick} style={{backgroundColor: `${bgColor}`}}>
+        <div className='eight-ball' onClick={handleClick} style={{backgroundColor: bgColor}}>
             <div>
                 {msg}
             </div>
